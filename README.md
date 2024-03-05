@@ -38,14 +38,6 @@ The GIF Creator script accepts the following command-line arguments:
 - `duration` (optional): Duration (in seconds) for each frame in the GIF (applicable only for image files).
 - `fps`: Frame rate (frames per second) for the GIF.
 
-## Example
+## License
 
-To create a GIF from an image file:
-
-```bash
-python gif_creator.py
-Enter the file type to create GIF from (video/image): image
-Enter the path to the input image file: path/to/input_image.jpg
-Enter the path for the output GIF file (e.g., output.gif): path/to/output.gif
-Enter the duration (in seconds) for each frame in the GIF: 0.5
-Enter the frame rate (frames per second) for the GIF: 10
+The GIF creator script and all other programs within this repository are governed by the MIT License. You are granted the freedom to utilize them for educational purposes and to adapt them to suit your needs. However, please be advised that I do not assume any responsibility for the accuracy or reliability of these programs.
