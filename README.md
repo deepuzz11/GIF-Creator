@@ -23,8 +23,7 @@ Follow the steps below to use the GIF Creator script:
 3. **Run the script**: Open a terminal or command prompt, navigate to the directory containing `gif_creator.py`, and execute the script using the following command:
    ```bash
    python gif_creator.py
-
-   Follow the prompts to create GIFs using the GIF Creator script. The script will guide you through choosing the file type (video or image) and provide the necessary input parameters.
+4.** Follow the prompts to create GIFs using the GIF Creator script. The script will guide you through choosing the file type (video or image) and provide the necessary input parameters.
 
 ## Command-Line Arguments
 
@@ -39,7 +38,17 @@ The GIF Creator script accepts the following command-line arguments:
 - `duration` (optional): Duration (in seconds) for each frame in the GIF (applicable only for image files).
 - `fps`: Frame rate (frames per second) for the GIF.
 
-## Example
+##Example
+
+To create a GIF from an image file:
+
+```bash
+python gif_creator.py
+Enter the file type to create GIF from (video/image): image
+Enter the path to the input image file: path/to/input_image.jpg
+Enter the path for the output GIF file (e.g., output.gif): path/to/output.gif
+Enter the duration (in seconds) for each frame in the GIF: 0.5
+Enter the frame rate (frames per second) for the GIF: 10
 
 To create a GIF from a video file:
 
@@ -51,3 +60,4 @@ Enter the path for the output GIF file (e.g., output.gif): path/to/output.gif
 Enter the start time (in seconds) for the GIF: 10
 Enter the end time (in seconds) for the GIF (leave blank for full duration): 20
 Enter the frame rate (frames per second) for the GIF: 10
+
